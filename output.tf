@@ -3,5 +3,5 @@ output "websiteendpoint" {
 }
 
 output "public_ip" {
-  value = aws_instance.Gitu.public_ip
+  value = aws_instance.public_ip
 }
